@@ -8,6 +8,7 @@ This is deployed in Cloud Foundry as a Docker Container
 # Steps
 
 1. Clone the Repo
+
    ```bash
      git clone https://github.com/rjain-pivotal/spring-boot-docker-cf.git
    ```
