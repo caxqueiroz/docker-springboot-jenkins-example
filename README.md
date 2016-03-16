@@ -27,7 +27,7 @@ The Spring boot app is deployed in Cloud Foundry as a Docker Container
      ```
      
 3. Containerize it
-
+--
    If using Maven
    
     ```bash
@@ -43,7 +43,7 @@ The Spring boot app is deployed in Cloud Foundry as a Docker Container
      ```
      
 4. Check and Run 
-
+--
      ```bash
        $docker images
        # Get the Docker Machine VM IP if running on a MAC 
@@ -53,7 +53,7 @@ The Spring boot app is deployed in Cloud Foundry as a Docker Container
      ```
 
 5. Run it in Cloud Foundry
-
+--
     ```bash
        $cf push -o <docker-user>/gs-spring-boot-docker -c "java -Djava.security.egd=file:/dev/./urandom -jar /app.jar"
     ```
