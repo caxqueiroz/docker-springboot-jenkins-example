@@ -3,17 +3,17 @@
 This is the repo for a Spring Boot app in Docker
 [Original Repo](https://spring.io/guides/gs/spring-boot-docker/#scratch)
 
-This is deployed in Cloud Foundry as a Docker Container
+The Spring boot app is deployed in Cloud Foundry as a Docker Container
 
-# Steps
+# 5-Steps
 
 1. Clone the Repo
-
+--
    ```bash
      git clone https://github.com/rjain-pivotal/spring-boot-docker-cf.git
    ```
 2. Build it and Run it locally
-
+--
    If using Maven
    
      ```bash
