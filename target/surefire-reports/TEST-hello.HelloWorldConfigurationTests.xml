@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.HelloWorldConfigurationTests" time="0.179" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="hello.HelloWorldConfigurationTests" time="0.148" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.25-b02"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/rjain/code/spring-boot/gs-spring-boot-docker-master/complete"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/rjain/code/spring-boot/spring-boot-docker"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/rjain/code/spring-boot/gs-spring-boot-docker-master/complete"/>
+    <property name="user.dir" value="/Users/rjain/code/spring-boot/spring-boot-docker"/>
     <property name="java.runtime.version" value="1.8.0_25-b17"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -61,5 +61,5 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testGreeting" classname="hello.HelloWorldConfigurationTests" time="0.179"/>
+  <testcase name="testGreeting" classname="hello.HelloWorldConfigurationTests" time="0.148"/>
 </testsuite>
