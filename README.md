@@ -44,18 +44,18 @@ The Spring boot app is deployed in Cloud Foundry as a Docker Container
      
 4. Check and Run 
 --
-      ```bash
-         $docker images
-         # Get the Docker Machine VM IP if running on a MAC 
-         $docker-machine env default (Get the Machine IP)
-         $docker run -p 8080:8080 -t rjain15/gs-spring-boot-docker
-         $curl http://192.168.99.100:8080  (Use the Machine IP)
-      ```
+   ```bash
+      $docker images
+      # Get the Docker Machine VM IP if running on a MAC 
+      $docker-machine env default (Get the Machine IP)
+      $docker run -p 8080:8080 -t rjain15/gs-spring-boot-docker
+      $curl http://192.168.99.100:8080  (Use the Machine IP)
+   ```
 
 5. Run it in Cloud Foundry
 --
-      ```bash
-         $cf push -o <docker-user>/gs-spring-boot-docker -c "java -Djava.security.egd=file:/dev/./urandom -jar /app.jar"
-      ```
+   ```bash
+      $cf push -o <docker-user>/gs-spring-boot-docker -c "java -Djava.security.egd=file:/dev/./urandom -jar /app.jar"
+   ```
 
   
