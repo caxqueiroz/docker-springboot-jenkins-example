@@ -1,4 +1,4 @@
-# Docker Container with Spring Boot App in Cloud Foundry
+# How to run a Spring Boot App in a Docker Container in Cloud Foundry
 
 This is the repo for a Spring Boot app in Docker
 [Original Repo](https://spring.io/guides/gs/spring-boot-docker/#scratch)
